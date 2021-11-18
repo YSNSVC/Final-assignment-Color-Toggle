@@ -1,0 +1,99 @@
+body {
+    width:15em;
+    margin:4em auto;
+    font: 20px Monospace-monaco;
+    background:rgb(0, 0, 0);
+      }
+
+body.geel {
+  background-color: yellow;
+}
+
+body.rood {
+  background-color: red;
+}
+
+body.blauw {
+  background-color: blue;
+}
+
+body.groen {
+  background-color: green;
+}
+  
+  .dropdown {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    padding:1em 1em 0 1em;
+    background:rgb(61, 61, 61);
+    display:block;
+    color:#222;
+  }
+  
+  .nav-toggle {
+    -webkit-appearance: none;
+    background:rgb(124, 124, 124);
+    text-transform:uppercase;
+    font-size:1em;
+    padding:.5em;
+    border:none;
+    outline:none;
+    transition: all 0.2s;
+    cursor:pointer;
+  }
+  
+  .nav-toggle:hover {
+    background:#222;
+    color:#fff;
+  }
+  
+  .nav-toggle:focus, .menu a:focus {
+    outline:1px solid red;
+  }
+  
+  .nav-toggle svg {
+    width: 25px;px;   
+    height: 25px;px;
+    fill:black;
+    vertical-align:top;
+    margin-right:.25em;
+  }
+  
+  .menu {
+    list-style:none;
+    padding:0;
+    margin:1em 0 0 0;
+    transition: all 0.8s cubic-bezier(.15,.7,0,1);
+  }
+
+ .menu a {
+    display:block;
+    color:rgb(0, 0, 0);
+    background:rgb(94, 88, 88);
+    text-decoration:none;
+    padding:.15em .5em;
+    outline:none;
+    margin-bottom:.2em;
+    transition: all 0.2s;
+  } 
+  
+   
+  
+  .menu a:hover {
+    background:#fff;
+    color:#222;
+  }
+
+
+  .script .menu {
+          overflow: hidden;
+          max-height: 0;
+  }
+  
+  .script .menu-active {
+      max-height:12em;
+    padding-bottom:1em;
+  }
+  
+  
